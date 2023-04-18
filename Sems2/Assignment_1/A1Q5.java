@@ -18,7 +18,7 @@ public class A1Q5 {
         int n = input.nextInt();
         input.close();
 
-        while(n>10){
+        while(n>=10){
             n = sum_Of_Digits(n);
         }
 
